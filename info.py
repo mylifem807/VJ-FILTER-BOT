@@ -192,7 +192,16 @@ else:
     FILE_DB_URI = F_DB_URI        # This Db Is For File Data Store
     SEC_FILE_DB_URI = S_DB_URI    # This Db is for File Data Store When First Db Is Going To Be Full.
 
+#Newfeatures vars developer - Anshvachhani99 ✨🌸
+DIRECT_GEN_DB = int(os.environ.get("DIRECT_GEN_DB", "-1002109089544"))
+DIRECT_GEN_URL = os.environ.get("DIRECT_GEN_URL", "https://web-6elnbzrv74ye.up-de-fra1-k8s-1.apps.run-on-seenode.com/")
+DIRECT_GEN = bool(DIRECT_GEN_DB and DIRECT_GEN_URL)
 
+POST_MODE= bool(environ.get('POST_MODE', True))
+POST_SHORT_API = environ.get('POST_SHORT_API', '39f2e5a3a4145b5d801bd32cb3016a49cba50fbb')
+POST_SHORT_URL = environ.get('POST_SHORT_URL', 'Modijiurl.com')
+
+HOW_TO_POST_SHORT = environ.get('HOW_TO_POST_SHORT', 'https://t.me/How_To_Get_Movie')
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
